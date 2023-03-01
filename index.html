@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Porsche Car Dealership</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Porsche Car Dealership</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Cars for Sale</a></li>
+				<li><a href="#">Rent a Car</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Rent a Car</h2>
+			<form action="#" method="post">
+				<label for="pickup-date">Pickup Date:</label>
+				<input type="date" name="pickup-date" id="pickup-date">
+				<label for="return-date">Return Date:</label>
+				<input type="date" name="return-date" id="return-date">
+				<label for="car-model">Car Model:</label>
+				<select name="car-model" id="car-model">
+					<option value="911">Porsche 911</option>
+					<option value="Cayenne">Porsche Cayenne</option>
+					<option value="Panamera">Porsche Panamera</option>
+				</select>
+				<button type="submit">Rent Car</button>
+			</form>
+		</section>
+		<section>
+			<h2>Register or Login</h2>
+			<div class="registration-form">
+				<h3>Register</h3>
+				<form action="#" method="post">
+					<label for="first-name">First Name:</label>
+					<input type="text" name="first-name" id="first-name">
+					<label for="last-name">Last Name:</label>
+					<input type="text" name="last-name" id="last-name">
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email">
+					<label for="password">Password:</label>
+					<input type="password" name="password" id="password">
+					<button type="submit">Register</button>
+				</form>
+			</div>
+			<div class="login-form">
+				<h3>Login</h3>
+				<form action="#" method="post">
+					<label for="email">Email:</label>
+					<input type="email" name="email" id="email">
+					<label for="password">Password:</label>
+					<input type="password" name="password" id="password">
+					<button type="submit">Login</button>
+				</form>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2022 Porsche Car Dealership</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,125 @@
+/* Reset default browser styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Set body font and background */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+/* Style the header */
+header {
+	background-color: #000;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+header h1 {
+	font-size: 2rem;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+header ul li {
+	list-style: none;
+	margin: 0 10px;
+}
+
+header ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+/* Style the main content area */
+main {
+	margin: 20px auto;
+	max-width: 1200px;
+}
+
+section {
+	margin: 20px 0;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+}
+
+section form {
+	display: flex;
+	flex-direction: column;
+}
+
+section label {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+section input,
+section select {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+section button[type="submit"] {
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Style the registration and login forms */
+.registration-form,
+.login-form {
+	display: inline-block;
+	width: 45%;
+	margin: 0 2.5%;
+	vertical-align: top;
+}
+
+.registration-form h3,
+.login-form h3 {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+
+.registration-form input,
+.login-form input {
+	display: block;
+	width: 100%;
+}
+
+.registration-form button,
+.login-form button {
+	margin-top: 10px;
+}
+
+/* Style the footer */
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
